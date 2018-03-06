@@ -1,0 +1,92 @@
+/*Main css*/
+.main-header .sidebar-toggle:before {
+    content: "";
+}
+
+.main-header .sidebar-toggle {
+    padding: 10px 15px;
+}
+
+/*Alert*/
+.alert-blink {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 100;
+}
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+button[disabled]{
+    cursor: not-allowed;
+}
+#summary td{
+    vertical-align: middle !important;
+}
+#tasks li{
+    list-style: none;
+    display: inline-block;
+}
+#tasks button.btn-delete{
+    border: none;
+    background-color: #ffffff;
+}
+#tasks>ul{
+    padding-right: 40px;
+}
+#tasks ul li div span ul{
+    padding-left: 0px;
+}
+#tasks>ul>li>div>span>ul>li{
+    display: inline-block;
+}
+@media all and (max-width: 480px){
+    #tasks>ul{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+.funkyradio input[type="checkbox"]:checked ~ label{
+    margin:0px;
+    line-height: 1em;
+}
+@media only screen and (max-width: 500px) {
+    ul{
+        padding-left: 0;
+    }
+}
+
+.user-panel>.image>img {
+    height: 45px;
+}
+
+#tasks li{
+        list-style: none;
+    }
+    #tasks button.btn-delete{
+        border: none;
+        background-color: #ffffff;
+    }
+    #tasks>ul{
+        padding-right: 40px;
+    }
+    #tasks>ul>li>div>span>ul{
+        padding-left: 0px;
+    }
+    #tasks>ul>li>div>span>ul>li{
+        display: inline-block;
+    }
+    @media all and (max-width: 480px){
+        #tasks>ul{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
